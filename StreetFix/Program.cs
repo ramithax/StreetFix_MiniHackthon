@@ -12,7 +12,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Add services to the container.
 builder.Services.AddScoped<IReportServices, ReportServices>();
-builder.Services.AddScoped<IUserServices, UserServices>();
 
 builder.Services.AddControllers();
 

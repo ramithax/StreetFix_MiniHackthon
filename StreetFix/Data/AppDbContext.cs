@@ -7,6 +7,6 @@ namespace StreetFix.Data
     {
         
         public DbSet<Report> Report { get; set; }
-        public DbSet<User> User { get; set; }
+        
     }
 }
