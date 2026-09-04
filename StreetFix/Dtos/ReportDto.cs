@@ -1,6 +1,8 @@
-﻿namespace StreetFix.Models
+using StreetFix.Models;
+
+namespace StreetFix.Dtos
 {
-    public class Report
+    public class ReportDto
     {
         public int Id { get; set; }
 
@@ -13,16 +15,5 @@
         public string Location { get; set; } = string.Empty;
 
         public string ImageUrl { get; set; } = string.Empty;
-
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
-    }
-
-    public enum Severity
-    {
-        Low,
-        Medium,
-        High
     }
 }
