@@ -10,12 +10,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 
-
 // Add services to the container.
 builder.Services.AddScoped<IReportServices, ReportServices>();
 builder.Services.AddScoped<IUserServices, UserServices>();
 
 builder.Services.AddControllers();
+builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
