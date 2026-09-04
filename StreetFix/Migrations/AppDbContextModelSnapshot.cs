@@ -39,7 +39,7 @@ namespace StreetFix.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Report");
+                    b.ToTable("Report", (string)null);
                 });
 #pragma warning restore 612, 618
         }
