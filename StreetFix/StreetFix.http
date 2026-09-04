@@ -1,0 +1,6 @@
+@StreetFix_HostAddress = http://localhost:5186
+
+GET {{StreetFix_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
