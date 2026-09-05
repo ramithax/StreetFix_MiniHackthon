@@ -1,4 +1,4 @@
-## AI Usage Declaration
+## AI Usage Declaration table
 
 | Tool Used | Purpose / Context | Prompt Summary | Modifications Made |
 |---|---|---|---|
